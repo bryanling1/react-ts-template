@@ -1,5 +1,5 @@
 {
-  "name": "twitch-clips",
+  "name": "TODO",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,13 +36,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test-coverage": "react-scripts test --watchAll=false --coverage --passWithNoTests",
-    "lint-commits": "commitlint --from main --to HEAD --verbose"
+    "test-coverage": "react-scripts test --watchAll=false --coverage --passWithNoTests"
   },
   "husky": {
     "hooks": {
       "pre-commit": "export CI=true && npm run build && lint-staged && npm run test-coverage",
-      "pre-push": "export CI=true && npm run build && lint-staged && npm run lint-commits"
+      "pre-push": "export CI=true && npm run build && lint-staged"
     }
   },
   "lint-staged": {

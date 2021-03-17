@@ -1,6 +1,7 @@
 {
   "name": "TODO",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "description": "TODO",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
